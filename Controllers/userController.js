@@ -105,7 +105,7 @@ const userController = {
         to: email,
         subject: "Account Activation Link",
         text: `You are requested to Activate your Account ,Click below Link to Activate
-        https://chat-in-app.netlify.app/activate/${activationToken}`,
+       https://chat-app-fs.netlify.app//activate/${activationToken}`,
       };
 
       transporter.sendMail(message, (err, info) => {
@@ -169,7 +169,7 @@ const userController = {
         to: email,
         subject: "Password Reset Link",
         text: `You are requested to change the password of user login ,So please click this url
-        https://chat-in-app.netlify.app/resetPassword/${randomString}`,
+       https://chat-app-fs.netlify.app//resetPassword/${randomString}`,
       };
 
       transporter.sendMail(message, (err, info) => {
